@@ -2,20 +2,24 @@
 //----------------------------------------------------//
 
 début
-entier x, y
-réel r
-binaire encore <-- vrai
-
-tant que encore = vrai faire
-	écrire "Entrer votre premier nombre"
-	lire x
-	écrire "Entrer votre deuxième nombre"
-	lire y
-	r <-- (x + y)/2
-	écrire "La moyenne des deux nombres est ", r
-	écrire "Souhaitez vous faire un autre calcul ?"
-	lire encore
-fin tant que
+	entier somme
+	tableau n
+	réel r
+	binaire encore <-- vrai
+	
+	tant que encore = vrai faire
+		écrire "Entrer votre nombre"
+		lire n
+		
+		Pour i = 0 à n
+			Faire somme <-- somme + n
+		fin Pour
+		
+		r <-- somme/2
+		écrire "La moyenne des deux nombres est ", r
+		écrire "Souhaitez vous faire un autre calcul ?"
+		lire encore
+	fin tant que
 fin
 
 //----------------------------------------------------//
