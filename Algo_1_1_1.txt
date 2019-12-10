@@ -1,0 +1,84 @@
+
+début
+nombre_1 <-- 0
+nombre_2 <-- 0
+moyenne <-- 0
+
+Écrire "Entrer votre premier nombre" 
+	Si presence premier chiffre alors
+		vérification numérique du nombre saisi
+		nombre_1 <-- nombre saisi
+		
+		affichage deuxième champ
+
+		Si presence deuxième chiffre alors
+			vérification numérique du nombre saisi
+			nombre_2 <-- nombre saisi
+
+			moyenne <-- (nombre_1 + nombre_2) / 2
+
+			Écrire moyenne
+		Sinon
+			Écrire "Votre nombre est incorrect"
+		fin si
+	Sinon
+		Écrire "Votre nombre est incorrect"
+	fin si
+fin
+
+//----------------------------------------------------//
+
+début
+entier x, y
+réel r
+
+
+Écrire "Entrer votre premier nombre"
+lire x
+Écrire "Entrer votre deuxième nombre"
+lire y
+r <-- (x + y)/2
+Écrire "La moyenne des deux nombres est ", r
+fin
+
+//----------------------------------------------------//
+
+début
+entier x, y
+réel r
+binaire encore
+
+
+Écrire "Entrer votre premier nombre"
+lire x
+Écrire "Entrer votre deuxième nombre"
+lire y
+r <-- (x + y)/2
+Écrire "La moyenne des deux nombres est ", r
+
+Écrire "Souhaitez vous faire un autre calcul ?"
+
+Tant que encore est vrai faire
+	Écrire "Entrer votre premier nombre"
+	lire x
+	Écrire "Entrer votre deuxième nombre"
+	lire y
+	r <-- (x + y)/2
+	Écrire "La moyenne des deux nombres est ", r
+	Écrire "Souhaitez vous faire un autre calcul ?"
+fin tant que
+fin
+
+//----------------------------------------------------//
+
+
+
+
+
+
+
+
+
+
+
+
