@@ -1,30 +1,54 @@
-
+﻿
 //----------------------------------------------------//
 
 début
 	entier somme
 	tableau n
+	entier i <-- 0
 	réel r
 	binaire encore <-- vrai
 	
 	tant que encore = vrai faire
 		écrire "Entrer votre nombre"
-		lire n
+		lire n[i]
 		
 		Pour i = 0 à n
-			Faire somme <-- somme + n
+			Faire somme <-- somme + n[i]
 		fin Pour
 		
 		r <-- somme/2
+		
 		écrire "La moyenne des deux nombres est ", r
 		écrire "Souhaitez vous faire un autre calcul ?"
 		lire encore
+
+		i++
 	fin tant que
 fin
 
 //----------------------------------------------------//
 
 
+
+début
+	caractere réponse <-- "O"
+	entier nbr, somme, count
+	réel resultat
+	count <-- 0
+	somme <-- 0
+	
+	tant que réponse = "O"
+		écrire "saisir un nombre"
+		lire nbr
+		
+		somme <-- somme + nbr
+		count <-- count +1
+		écrire "Veuillez saisir un autre nombre"
+		lire réponse
+	fin tant que
+	résultat <-- somme / count
+	écrire "moyenne = ", résultat
+fin
 
 
 
