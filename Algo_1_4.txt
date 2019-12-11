@@ -21,7 +21,27 @@ début
 fin
 
 //----------------------------------------------------//
+// Inversion de 2 valeurs
 
+
+entier a, b, c
+
+début
+
+	écrire "Entrer deux valeurs a et b :"
+	lire a
+	lire b
+	
+	c <-- a
+	a <-- a+b
+	b <-- b+c
+	
+	écrire "Le contenu de a dans b est ", a
+	écrire "Le contenu de b dans a est ", b
+
+fin
+
+//----------------------------------------------------//
 
 
 
