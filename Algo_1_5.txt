@@ -5,19 +5,25 @@
 entier S // somme initiale placée sur le compte
 entier I // intérêt offert par la banque
 entier N // nombre d'année de placement
+réel IN // intérêt exposant n année
 réel simple, composé
 
 début
 	
-	écrire "Entrer trois valeurs Somme initiale: "
+	écrire "Entrer la somme initiale: "
 	lire S
 	écrire "Entrer un taux d'intérêt offert par la banque: "
 	lire I
 	écrire "Entrer le nombre d'année de placement: "
 	lire N
 	
-	simple <-- S(1 + N * I)
-	composé <-- S(1 + I)^N
+	simple <-- S*(1 + N * I)
+	
+	// composé <-- S*(1 + I)^N
+	Pour j = 0 à N
+		IN <-- j*I
+	fin pour
+	composé <-- S*IN
 	
 	écrire "La somme placée sur un compte d'intérêt simple est ", simple
 	écrire "La somme placée sur un compte d'intérêt composé est ", composé
