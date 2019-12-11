@@ -1,0 +1,35 @@
+﻿
+//----------------------------------------------------//
+// Inversion de 2 valeur
+
+début
+
+	entier a // a
+	entier b // b
+	entier sa // save de a
+	
+	écrire "Entrer deux valeurs a et b :"
+	lire a
+	lire b
+	
+	a <-- a+b
+	b <-- b+sa
+	
+	écrire "Le contenu de a dans b est ", a
+	écrire "Le contenu de b dans a est ", b
+
+fin
+
+//----------------------------------------------------//
+
+
+
+
+
+
+
+
+
+
+
+
