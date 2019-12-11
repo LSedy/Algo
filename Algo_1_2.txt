@@ -1,0 +1,34 @@
+﻿
+//----------------------------------------------------//
+// Calcul de l'aire et du volume d'une sphère
+
+début
+
+	entier aire
+	entier volume
+	entier R // Rayon
+	
+	écrire "Entrer le rayon d'une sphère"
+	lire R
+	
+	aire <-- 4πR2
+	volume <-- 4/3πR3
+	
+	écrire "L'aire de la sphère est ", aire
+	écrire "L'aire de la sphère est ", volume
+
+fin
+
+//----------------------------------------------------//
+
+
+
+
+
+
+
+
+
+
+
+
