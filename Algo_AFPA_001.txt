@@ -1,0 +1,70 @@
+﻿//----------------------------------------------------//
+// Calcul avec tant que
+
+entier 	N, multiple, i <-- 0
+//réel 	premier
+
+début
+	
+	écrire "Entrer un entier: "
+	lire N
+	
+	tant que i <= N
+		Faire i+1
+		multiple <-- i*N
+	fin tant que
+	
+	écrire "Le nombre ", N ," est un multiple de ", multiple
+
+fin
+
+//----------------------------------------------------//
+// Calcul avec répéter
+
+entier 	N, multiple, i <-- 0
+//réel 	premier
+
+début
+	
+	écrire "Entrer un entier: "
+	lire N
+	
+	répéter i+1
+		multiple <-- i*N
+	jusqu'à i = N
+	
+	écrire "Le nombre ", N ," est un multiple de ", multiple
+
+fin
+
+//----------------------------------------------------//
+// Calcul avec pour 
+
+entier 	N, multiple, i <-- 0
+
+début
+	
+	écrire "Entrer un entier: "
+	lire N
+	
+	Pour i = 0 à N
+		Faire multiple <-- i*N
+	fin Pour
+	
+	écrire "Le nombre ", N ," est un multiple de ", multiple
+
+fin
+
+//----------------------------------------------------//
+
+
+
+
+
+
+
+
+
+
+
+
