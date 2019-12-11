@@ -1,16 +1,17 @@
 ﻿
 //----------------------------------------------------//
-// Inversion de 2 valeurs
+// Calcul d'intérêts
 
 début
 
-	entier a // a
-	entier b // b
-	entier sa // save de a
+	entier S // somme initiale placée sur le compte
+	entier i // intérêt offert par la banque
+	entier N // nombre d'année de placement
 	
-	écrire "Entrer deux valeurs a et b :"
-	lire a
-	lire b
+	écrire "Entrer trois valeurs s, i et N :"
+	lire S
+	lire i
+	lire N
 	
 	a <-- a+b
 	b <-- b+sa
