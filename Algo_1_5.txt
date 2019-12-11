@@ -2,22 +2,23 @@
 //----------------------------------------------------//
 // Calcul d'intérêts
 
-début
+entier S // somme initiale placée sur le compte
+entier I // intérêt offert par la banque
+entier N // nombre d'année de placement
+réel simple, composé
 
-	entier S // somme initiale placée sur le compte
-	entier i // intérêt offert par la banque
-	entier N // nombre d'année de placement
+début
 	
-	écrire "Entrer trois valeurs s, i et N :"
+	écrire "Entrer trois valeurs S, I et N :"
 	lire S
-	lire i
+	lire I
 	lire N
 	
-	a <-- a+b
-	b <-- b+sa
+	simple <-- S(1 + N * I)
+	composé <-- S(1 + I)^N
 	
-	écrire "Le contenu de a dans b est ", a
-	écrire "Le contenu de b dans a est ", b
+	écrire "La somme placée sur un compte d'intérêt simple est ", simple
+	écrire "La somme placée sur un compte d'intérêt composé est ", composé
 
 fin
 
