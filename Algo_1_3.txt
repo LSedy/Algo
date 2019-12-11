@@ -1,0 +1,36 @@
+﻿
+//----------------------------------------------------//
+// Calcul de l'aire et du volume d'une sphère
+
+début
+
+	entier SC // secteur circulaire
+	entier R // Rayon
+	entier A // Degré
+	entier aire
+	
+	écrire "Entrer le rayon d'une sphère"
+	lire R
+	
+	écrire "Entrer l'angle d'une sphère en degrés "
+	lire A
+	
+	aire <-- πR2A/360
+	
+	écrire "L'aire du secteur circulaire est ", aire
+
+fin
+
+//----------------------------------------------------//
+
+
+
+
+
+
+
+
+
+
+
+
