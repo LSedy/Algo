@@ -1,0 +1,38 @@
+﻿
+//----------------------------------------------------//
+// Calcul de nombres premier
+
+entier 	E, nbDiviseur, premier
+//réel 	premier
+
+début
+	
+	écrire "Entrer un entier: "
+	lire E
+	
+	Pour i = 0 à E
+		Faire nbDiviseur <- 0
+		Pour j = 1 à i
+			Faire si (i%j==0)
+				nbDiviseur++;            
+			fin si
+		fin Pour
+	fin Pour
+	
+	écrire "Le nombre ", E ," est divisible par ", nbDiviseur
+
+fin
+
+//----------------------------------------------------//
+
+
+
+
+
+
+
+
+
+
+
+
