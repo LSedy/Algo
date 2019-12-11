@@ -6,11 +6,12 @@ début
 	tableau n
 	entier i <-- 0
 	réel r
-	binaire encore <-- vrai
+	boolean encore <-- vrai
 	
 	tant que encore = vrai faire
 		écrire "Entrer votre nombre"
 		lire n[i]
+		i++
 		
 		Pour i = 0 à n
 			Faire somme <-- somme + n[i]
