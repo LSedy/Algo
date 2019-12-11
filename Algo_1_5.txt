@@ -9,9 +9,11 @@ réel simple, composé
 
 début
 	
-	écrire "Entrer trois valeurs S, I et N :"
+	écrire "Entrer trois valeurs Somme initiale: "
 	lire S
+	écrire "Entrer un taux d'intérêt offert par la banque: "
 	lire I
+	écrire "Entrer le nombre d'année de placement: "
 	lire N
 	
 	simple <-- S(1 + N * I)
