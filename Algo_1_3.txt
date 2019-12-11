@@ -7,7 +7,8 @@ début
 	entier SC // secteur circulaire
 	entier R // Rayon
 	entier A // Degré
-	entier aire
+	réel aire
+	réel PI <-- 3.14
 	
 	écrire "Entrer le rayon d'une sphère"
 	lire R
@@ -15,7 +16,7 @@ début
 	écrire "Entrer l'angle d'une sphère en degrés "
 	lire A
 	
-	aire <-- πR2A/360
+	aire <-- PI*R*R*A/360
 	
 	écrire "L'aire du secteur circulaire est ", aire
 
