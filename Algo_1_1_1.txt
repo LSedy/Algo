@@ -1,4 +1,4 @@
-
+﻿
 début
 nombre_1 <-- 0
 nombre_2 <-- 0
@@ -40,6 +40,7 @@ lire y
 r <-- (x + y)/2
 Écrire "La moyenne des deux nombres est ", r
 fin
+
 
 //----------------------------------------------------//
 
