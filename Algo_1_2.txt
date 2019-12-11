@@ -15,7 +15,7 @@ début
 	volume <-- 4/3*PI*R*R*R
 	
 	écrire "L'aire de la sphère est ", aire
-	écrire "L'aire de la sphère est ", volume
+	écrire "Le volume de la sphère est ", volume
 
 fin
 
